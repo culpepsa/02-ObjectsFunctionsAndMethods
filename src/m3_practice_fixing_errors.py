@@ -31,7 +31,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 ###############################################################################
 
 import rosegraphics as rg
-
+import math
 
 def main():
     """ Calls the other functions in this module to demo them. """
@@ -41,11 +41,11 @@ def main():
 
 def print_math():
     """ Prints some calculated values. """
-    import math
-    x = math.cos(3.1415)
+    
+    x = math.cos(math.pi)
     print(x)
 
-    y = math.sin(3.1415)
+    y = math.sin(math.pi)
     print('The sine of PI is', y)
 
 
